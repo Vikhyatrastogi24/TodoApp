@@ -10,6 +10,7 @@ import org.hibernate.Session;
 import org.hibernate.Transaction;
 
 import java.io.IOException;
+//import java.io.PrintWriter;
 
 public class DeleteServlet extends HttpServlet
 {

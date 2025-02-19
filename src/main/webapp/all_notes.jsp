@@ -40,7 +40,7 @@ for(TODO todo : list)
     </p>
 <p><b><%= todo.getAddedDate() %></b> </p>
     <div class="container text-center mt-2">
-    <a href="DeleteServlet?note_id=<%= todo.getId() %>" class="btn btn-danger">Delete</a>
+    <a href="DeleteServlet?note_id=<%= todo.getId() %>" class="btn btn-danger " onClick="showAlert()">Delete</a>
     <a href="edit.jsp?note_id=<%= todo.getId() %>" class="btn btn-warning">Update</a>
     </div>
 
